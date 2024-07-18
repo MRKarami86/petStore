@@ -34,3 +34,8 @@ project_root/
 └── .github
 └── package.json
 └── README.md
+
+
+https://github.com/galeza/PetStoreAPITesting/blob/master/features/feature_user/User_API_Testing.feature
+
+https://github.com/DionisIno/PetStoreAPI/tree/main
