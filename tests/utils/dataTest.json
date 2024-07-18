@@ -8,5 +8,10 @@
   "UpdatePet": {
     "name": "Catty",
     "status": "sold"
+  },
+  "upload_image_data": {
+    "pet_id" : 203,
+    "metadata": "Some additional metadata",
+    "image_path": "F:/AutomationTest_Project/SeleniumWebDriver_AutomationTest/petStore/tests/utils/Dog.jpg"
   }
 }

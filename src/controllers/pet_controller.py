@@ -15,3 +15,7 @@ class PetController:
     @staticmethod
     def remove_pet(pet_id):
         return PetService.delete_pet(pet_id)
+
+    @staticmethod
+    def upload_image(pet_id, metadata, image_path):
+        return PetService.upload_image(pet_id, metadata, image_path)

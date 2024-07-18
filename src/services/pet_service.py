@@ -21,3 +21,10 @@ class PetService:
     def delete_pet(pet_id):
         response = requests.delete(f"{PetService.BASE_URL}/pet/{pet_id}", headers=PetService.HEADERS)
         return response
+
+    @staticmethod
+    def upload_image(pet_id, metadata, image_path):
+        with open(image_path, 'rb') as image_file:
+            response = requests.post(f"{PetService.BASE_URL}/pet/{pet_id}/uploadImage", files={'file': image_file},
+                                     data={'additionalMetadata': metadata})
+        return response
