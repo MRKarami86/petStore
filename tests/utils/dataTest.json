@@ -1,0 +1,12 @@
+{
+  "pet_id" : 203,
+  "pet_add_body": {
+    "id": 203,
+    "name": "Doggy",
+    "status": "available"
+  },
+  "UpdatePet": {
+    "name": "Catty",
+    "status": "sold"
+  }
+}
