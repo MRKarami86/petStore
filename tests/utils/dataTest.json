@@ -36,5 +36,22 @@
         }
     ],
     "status": "pending"
+  },
+  "returns_pet_inventories": [
+            "Pending",
+            "available",
+            "pending",
+            "peric",
+            "placed",
+            "sold",
+            "string"
+        ],
+  "order_pets": {
+      "id": 203,
+      "petId": 203203,
+      "quantity": 0,
+      "shipDate": "2024-07-19T11:18:37.933Z",
+      "status": "placed",
+      "complete": true
   }
 }
