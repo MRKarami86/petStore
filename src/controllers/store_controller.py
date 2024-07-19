@@ -1,5 +1,5 @@
 from src.services.store_service import StoreService
-from src.models.store_model import StoreOrder
+
 
 class StoreController:
     @staticmethod
@@ -8,6 +8,12 @@ class StoreController:
 
     @staticmethod
     def order_for_pet(order_data):
-        # تبدیل دیکشنری به نمونه `StoreOrder`
-        order = StoreOrder(**order_data)
-        return StoreService.place_order(order.to_dict())
+        return StoreService.place_order(order_data)
+
+    @staticmethod
+    def find_purchase_order_by_ID(orderId):
+        return StoreService.find_purchase_order_by_ID(orderId)
+
+    @staticmethod
+    def delete_purchase_order_by_ID(orderId):
+        return StoreService.delete_purchase_order_by_ID(orderId)

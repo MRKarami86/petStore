@@ -47,11 +47,53 @@
             "string"
         ],
   "order_pets": {
-      "id": 203,
+      "id": 10,
       "petId": 203203,
       "quantity": 0,
       "shipDate": "2024-07-19T11:18:37.933Z",
       "status": "placed",
       "complete": true
-  }
+  },
+  "create_user": {
+      "id": 1,
+      "username": "MRK1093",
+      "firstName": "MR",
+      "lastName": "Kara",
+      "email": "MRK@gmail.com",
+      "password": "Mrk@1093",
+      "phone": "989192424242",
+      "userStatus": 1
+    },
+    "create_users": [
+      {
+          "id": 10,
+          "username": "MRK1094",
+          "firstName": "MR1094",
+          "lastName": "Kara1094",
+          "email": "MRK1094@gmail.com",
+          "password": "Mrk@1094",
+          "phone": "989192424243",
+          "userStatus": 1
+        },
+      {
+          "id": 11,
+          "username": "MRK1095",
+          "firstName": "MR1094",
+          "lastName": "Kara1094",
+          "email": "MRK1094@gmail.com",
+          "password": "Mrk@1095",
+          "phone": "989192424244",
+          "userStatus": 1
+        },
+      {
+          "id": 12,
+          "username": "MRK1096",
+          "firstName": "MR1096",
+          "lastName": "Kara1096",
+          "email": "MRK1096@gmail.com",
+          "password": "Mrk@1096",
+          "phone": "989192424245",
+          "userStatus": 1
+        }
+    ]
 }
