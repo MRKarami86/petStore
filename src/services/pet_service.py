@@ -28,3 +28,8 @@ class PetService:
             response = requests.post(f"{PetService.BASE_URL}/pet/{pet_id}/uploadImage", files={'file': image_file},
                                      data={'additionalMetadata': metadata})
         return response
+
+    @staticmethod
+    def FindPetById(pet_id):
+        response = requests.get(f"{PetService.BASE_URL}/pet/{pet_id}", headers=PetService.HEADERS)
+        return response
