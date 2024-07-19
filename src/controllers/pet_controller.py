@@ -21,5 +21,13 @@ class PetController:
         return PetService.upload_image(pet_id, metadata, image_path)
 
     @staticmethod
-    def FindPetById(pet_id):
-        return PetService.FindPetById(pet_id)
+    def findPetById(pet_id):
+        return PetService.findPetById(pet_id)
+
+    @staticmethod
+    def findPetByStatus(status):
+        return PetService.findPetByStatus(status)
+
+    @staticmethod
+    def updateExistingPets(updatedPet):
+        return PetService.updateExistingPets(updatedPet)

@@ -6,7 +6,7 @@ from src.controllers.pet_controller import PetController
 
 class DeletePetTest(unittest.TestCase):
     def setUp(self):
-        self.file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils', 'dataTest.json'))
+        self.file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'utils', 'dataTest.json'))
         with open(self.file_path) as data_file:
             self.data = json.load(data_file)
 

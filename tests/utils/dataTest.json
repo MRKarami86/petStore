@@ -13,5 +13,28 @@
     "pet_id" : 203,
     "metadata": "Some additional metadata",
     "image_path": "F:/AutomationTest_Project/SeleniumWebDriver_AutomationTest/petStore/tests/utils/Dog.jpg"
+  },
+  "status": [
+    "available",
+    "pending",
+    "sold"
+  ],
+  "updateExistingPet": {
+    "id": 203203,
+    "category": {
+        "id": 0,
+        "name": ""
+    },
+    "name": "doggy",
+    "photoUrls": [
+         ""
+    ],
+    "tags": [
+        {
+            "id": 2,
+            "name": "cat"
+        }
+    ],
+    "status": "pending"
   }
 }
